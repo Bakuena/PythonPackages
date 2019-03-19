@@ -8,7 +8,7 @@ setup(
     description='EDSA example python package',
     long_description=open('README.md').read(),
     install_requires=['numpy'],
-    url='https://github.com/<username>/<package-name>',
-    author='<Your Name>',
-    author_email='<Your Email>'
+    url= 'https://github.com/Bakuena/PythonPackages.git',
+    author='<Bakuena>',
+    author_email='<bakuena@icloud.com>'
 )

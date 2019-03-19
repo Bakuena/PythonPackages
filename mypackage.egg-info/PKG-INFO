@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mypackage
+Version: 0.1
+Summary: EDSA example python package
+Home-page: https://github.com/Bakuena/PythonPackages.git
+Author: <Bakuena>
+Author-email: <bakuena@icloud.com>
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
