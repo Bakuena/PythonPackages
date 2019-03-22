@@ -29,7 +29,7 @@ def merge_sort(items):
     # call merge_sort function on each half of list
     return merge(i1, i2)
 
-    def merge(A, B):
+def merge(A, B):
     new_list = []
     while len(A) > 0 and len(B) > 0:
         if A[0] < B[0]:
