@@ -47,8 +47,13 @@ def merge_sort(items):
     return new_list
 
     
-
     '''Return array of items, sorted in ascending order'''
 def quick_sort(items):
-
+    if len(items) == 0:
+        return items
+    p = len(items) // 2
+    l = [i for i in items if i < items[p]]
+    m = [i for i in items if i == items[p]]
+    r = [i for i in items if i > items[p]]
+    return quick_sort(l) + m + quick_sort(r)
     '''Return array of items, sorted in ascending order'''
